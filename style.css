@@ -1,17 +1,37 @@
 body{
-
+height: 100vh;
+width: 100vw;
 }
-header{
+.header{
+  height: 70px;
+  width: 100vw;
+  background-color: #bdc3c7;
+}
+.main-title{
+  height: 100%;
+  width: 400px;
+  float: left;
+  text-align: center;
+  line-height: 50px;
 
 }
 .title{
-
+  height: 50%;
+  font-size: 30px;
+}
+.sub-title{
+  height: 50%;
+  font-size: 20px;
 }
 ul{
-
+  list-style: none;
+  float: right;
+  font-size: 20px;
 }
 li{
-
+  display: inline;
+  margin: 0 100px;
+  line-height: 70px;
 }
 .contents{
 
