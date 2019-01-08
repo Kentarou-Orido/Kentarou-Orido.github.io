@@ -1,9 +1,12 @@
 :root{
   --header-hight: 70px;
 }
+html{
+  height: 100vh;
+}
 body{
-height: 100vh;
-width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 .header{
   height: var(--header-hight);
@@ -45,6 +48,7 @@ width: 100vw;
 }
 .profile{
   background-color: #a0c238;
+  height: 33vh;
 }
 .profile_title{
   padding: 10px 0 0 10px;
@@ -85,6 +89,7 @@ h1{
 }
 .works{
   background-color: #d78114;
+  height: 33vh;
 }
 .works_title{
   padding: 10px 0 0 10px;
@@ -93,7 +98,7 @@ h1{
 
 .works_performance{
   padding: 0 80px;
-  height: 80%;
+  margin-top: 20px;
 }
 .performance-title{
   font-weight: bold;
@@ -116,6 +121,7 @@ h1{
 }
 .contact{
   background-color: #fff001;
+  height: 33vh;
 }
 .contact_title{
   padding: 10px 0 0 10px;
@@ -123,5 +129,6 @@ h1{
 }
 .contact_body{
   padding: 0 80px;
-  height: 80%;
+  text-align: center;
+  line-height: 180px;
 }
